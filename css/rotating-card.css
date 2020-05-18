@@ -15,8 +15,6 @@
 .card-container {
   margin: auto;
   font-family: "Fjalla One", sans-serif;
-  width: 75%;
-  height: 750px;
   max-width: 1000px;
   text-align: center;
 }
@@ -27,7 +25,7 @@
 }
 
 .text-center {
-  font-size: 26px;
+  font-size: 23px;
   color: black;
   margin: auto;
 }
