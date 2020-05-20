@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(15, 15, 15);
 }
 
 .navBar {
@@ -8,7 +8,7 @@ body {
   position: relative;
   bottom: 10px;
   right: 10px;
-  width: 110%;
+  width: 101.8%;
 }
 
 .navBar a {
@@ -32,18 +32,25 @@ body {
   color: white;
 }
 
-#bioVid {
+#vid {
   position: relative;
   left: 50%;
   transform: translate(-50%);
   padding-bottom: 10px;
 }
+iframe {
+  border: 5px solid rgb(250, 150, 40);
+}
 
 .abtBar {
   overflow: hidden;
-  border: 1px solid #ccc;
   background-color: rgb(0, 0, 0);
   text-align: center;
+  position: relative;
+  right: 10px;
+  width: 99.8%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -59,14 +66,14 @@ body {
 
 /* Change background color of buttons on hover */
 .abtBar button:hover {
-  background-color: rgb(250, 150, 40);
+  background-color: #ddd;
   color: black;
 }
 
 /* Create an active/current tablink class */
 .abtBar button.active {
-  background-color: rgb(250, 150, 40);
-  color: white;
+  background-color: #ddd;
+  color: black;
 }
 
 /* Style the tab content */
@@ -78,10 +85,39 @@ body {
   background-color: #ddd;
   font-family: "Fjalla One", sans-serif;
   text-align: center;
+  position: relative;
+  width: 97.4%;
+  right: 10px;
 }
 
 .tablinks {
   color: white;
   font-family: "Fjalla One", sans-serif;
   font-size: 20px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16em;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.abt {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#pros,
+#cons {
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h7 {
+  font-size: 15px;
+  position: relative;
+  top: 500px;
 }

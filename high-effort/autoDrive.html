@@ -5,6 +5,8 @@
 
     <link href="index.css" rel="stylesheet" />
 
+    <script src="index.js"></script>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
       rel="stylesheet"
@@ -16,6 +18,69 @@
       <a class="active" href="autoDrive.html">Automated Driving</a>
       <a href="iot.html">Internet of Things</a>
     </div>
-    <h1>AUTO DRIVE</h1>
+
+    <iframe
+      id="vid"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/AiOxUcDgsa8"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <div class="abtBar">
+      <button class="tablinks" onclick="openTab(event, 'abtBio')">
+        What is Automated Driving?
+      </button>
+      <button class="tablinks" onclick="openTab(event, 'pros')">
+        Pros
+      </button>
+      <button class="tablinks" onclick="openTab(event, 'cons')">
+        Cons
+      </button>
+    </div>
+
+    <div id="abtBio" class="tabcontent">
+      <p class="abt">
+        Just like biometrics, automated cars need three main things to make it
+        work, a sensor to detect the cars surroundings, a computer to store the
+        information, and software to process the information and control the
+        car. The sensors use the white lines on the side of the road to map out
+        a path for the car to travel, the software tells the car that it can
+        only drive within the white lines, which means that this technology will
+        not work outside of conventional roads unless specially programmed for a
+        specific route. The sensors also detect things such as traffic lights,
+        stop signs, and other cars. The software identifies these things and
+        tell the car to act accordingly to what it sees.
+      </p>
+    </div>
+
+    <div id="pros" class="tabcontent">
+      <ul>
+        <li>
+          Better traffic control due to cars being able to communicate with each
+          other and coordinate movement.
+        </li>
+        <br />
+        <li>
+          Less accidents as cars are always alert and have 360 degree vision.
+        </li>
+      </ul>
+    </div>
+
+    <div id="cons" class="tabcontent">
+      <ul>
+        <li>
+          A human is always needed in the drivers seat to take control just in
+          case the system fails.
+        </li>
+        <br />
+        <li>
+          Weather may block the sensors, preventing them from working properly.
+        </li>
+      </ul>
+    </div>
+    <h7>copyright cool jeremy©</h7>
   </body>
 </html>
