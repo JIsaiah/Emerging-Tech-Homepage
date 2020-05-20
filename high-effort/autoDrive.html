@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body onload="openInfo()">
     <div class="navBar">
       <a href="index.html">Biometrics</a>
       <a class="active" href="autoDrive.html">Automated Driving</a>
@@ -30,7 +30,7 @@
     ></iframe>
 
     <div class="abtBar">
-      <button class="tablinks" onclick="openTab(event, 'abtBio')">
+      <button class="tablinks" id="openAbt" onclick="openTab(event, 'abtBio')">
         What is Automated Driving?
       </button>
       <button class="tablinks" onclick="openTab(event, 'pros')">

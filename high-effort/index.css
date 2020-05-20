@@ -88,6 +88,8 @@ iframe {
   position: relative;
   width: 97.4%;
   right: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .tablinks {
@@ -101,6 +103,7 @@ iframe {
   width: 16em;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  font-weight: bold;
 }
 
 .abt {

@@ -12,12 +12,77 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body onload="openInfo()">
     <div class="navBar">
       <a href="index.html">Biometrics</a>
       <a href="autoDrive.html">Automated Driving</a>
       <a class="active" href="iot.html">Internet of Things</a>
     </div>
-    <h1>IOT</h1>
+
+    <iframe
+      id="vid"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/LlhmzVL5bm8"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <div class="abtBar">
+      <button class="tablinks" id="openAbt" onclick="openTab(event, 'abtBio')">
+        What is IoT?
+      </button>
+      <button class="tablinks" onclick="openTab(event, 'pros')">
+        Pros
+      </button>
+      <button class="tablinks" onclick="openTab(event, 'cons')">
+        Cons
+      </button>
+    </div>
+
+    <div id="abtBio" class="tabcontent">
+      <p class="abt">
+        IoT is the technology which allows a mini ecosystem of computers such as
+        a home automation system to communicate with each other. It’s how the
+        amazon Alexa can control the lights in your room or the fridge from
+        across the house. This technology is becoming more mainstream and is
+        going to further improve with the introduction of 5G connectivity, which
+        will make communications between each device almost instant providing a
+        much more seamless experience for the user. This system usually requires
+        a hub or controller device, a connection to a network or cloud,
+        software, computer and user interface. Systems like this allow you to
+        control your home from wherever and can allow you to monitor things
+        inside your home.
+      </p>
+    </div>
+
+    <div id="pros" class="tabcontent">
+      <ul>
+        <li>
+          Ease of access to nearby technology.
+        </li>
+        <br />
+        <li>
+          These systems work faster than inputting passwords manually which
+          makes it more convenient.
+        </li>
+      </ul>
+    </div>
+
+    <div id="cons" class="tabcontent">
+      <ul>
+        <li>
+          Security risks are high and having someone else gain access to your
+          home can let them control your home and spy on you through cameras and
+          microphones.
+        </li>
+        <br />
+        <li>
+          The products can be expensive, especially for the whole ecosystem.
+        </li>
+      </ul>
+    </div>
+    <h7>copyright cool jeremy©</h7>
   </body>
 </html>
